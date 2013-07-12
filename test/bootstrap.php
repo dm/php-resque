@@ -40,9 +40,9 @@ Resque::setBackend('localhost:' . $matches[1]);
 // Shutdown
 function killRedis($pid)
 {
-    if (getmypid() !== $pid) {
-        return; // don't kill from a forked worker
-    }
+	if (getmypid() !== $pid) {
+		return; // don't kill from a forked worker
+	}
 	$config = file_get_contents(REDIS_CONF);
 	if(!preg_match('#^\s*pidfile\s+([^\s]+)#m', $config, $matches)) {
 		return;
@@ -80,7 +80,7 @@ if(function_exists('pcntl_signal')) {
 	// clean up redis-server as well.
 	function sigint()
 	{
-	 	exit;
+		exit;
 	}
 	pcntl_signal(SIGINT, 'sigint');
 	pcntl_signal(SIGTERM, 'sigint');

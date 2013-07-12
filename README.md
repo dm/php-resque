@@ -40,6 +40,11 @@ pre and post jobs
 * PHP 5.3+
 * Redis 2.2+
 * Optional but Recommended: Composer
+* Optional: [phpredis](https://github.com/nicolasff/phpredis) for better performance
+
+## Contributing
+
+See CONTRIBUTING file.
 
 ## Getting Started ##
 
@@ -358,24 +363,31 @@ Called after a job has been queued using the `Resque::enqueue` method. Arguments
 
 ## Contributors ##
 
-* chrisboulton
-* thedotedge
-* hobodave
-* scraton
-* KevBurnsJr
-* jmathai
-* dceballos
-* patrickbajao
-* andrewjshults
-* warezthebeef
-* d11wtq
-* hlegius
-* salimane
-* humancopy
-* pedroarnal
-* chaitanyakuber
-* maetl
-* Matt Heath
-* jjfrey
-* scragg0x
-* ruudk
+* [Andrew Shults](https://github.com/andrewjshults)
+* [Chaitanya Kuber](https://github.com/chaitanyakuber)
+* [Chris Boulton](https://github.com/chrisboulton)
+* [Chris Corbyn](https://github.com/d11wtq)
+* [Daniel Macedo](https://github.com/dm)
+* [dceballos](https://github.com/dceballos)
+* [Hélio Costa e Silva](https://github.com/hlegius)
+* [David Abdemoulaie](https://github.com/hobodave)
+* [humancopy](https://github.com/humancopy)
+* [Joe Frey](https://github.com/jjfrey)
+* [Jaisen Mathai](https://github.com/jmathai)
+* [Kevin Burns](https://github.com/KevBurnsJr)
+* [Mark Rickerby](https://github.com/maetl)
+* [Matt Heath](https://github.com/mattheath)
+* [Earl Patrick Bajao](https://github.com/patrickbajao)
+* [pedroarnal](https://github.com/pedroarnal)
+* [Ruud Kamphuis](https://github.com/ruudk)
+* [Salimane Adjao Moustapha](https://github.com/salimane)
+* [Matthew Scragg](https://github.com/scragg0x)
+* [Stephen Craton](https://github.com/scraton)
+* [Oleg Topchiy](https://github.com/thedotedge)
+* [warezthebeef](https://github.com/warezthebeef)
+
+## Copyright/License ##
+
+Copyright © Chris Boulton <chris@bigcommerce.com>
+
+Licensed under [MIT License](http://opensource.org/licenses/MIT).
